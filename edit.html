@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <title>Update YOUR Profile</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link rel="stylesheet" type="text/css" href="plugins/dropify/dropify.min.css">
+    <link href="assets/css/users/account-setting.css" rel="stylesheet" type="text/css" />
+    <!--  END CUSTOM STYLE FILE  -->
+</head>
+<body class="alt-menu sidebar-noneoverflow">
+    
+    <!--  BEGIN NAVBAR  -->
+    <div class="header-container fixed-top">
+         <div class="header-container fixed-top">
+        <header class="header navbar navbar-expand-sm expand-header">
+            <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
+
+            <ul class="navbar-item flex-row ml-auto">
+
+             
+
+                <li class="nav-item dropdown user-profile-dropdown  order-lg-0 order-1">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-check"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+                    </a>
+                    <div class="dropdown-menu position-absolute e-animated e-fadeInUp" aria-labelledby="userProfileDropdown">
+                        
+                       
+                        <div class="dropdown-item">
+                            <a href="#" class="logoutbtn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg> <span>Log Out</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </header>
+    </div>
+    </div>
+    <!--  END NAVBAR  -->
+
+    <!--  BEGIN MAIN CONTAINER  -->
+    <div class="main-container sidebar-closed sbar-open" id="container">
+
+        <div class="overlay"></div>
+        <div class="cs-overlay"></div>
+        <div class="search-overlay"></div>
+
+     
+        <!--  END SIDEBAR  -->
+
+        <!--  BEGIN CONTENT AREA  -->
+        <div id="content" class="main-content">
+            <div class="layout-px-spacing">                
+                    
+                <div class="account-settings-container layout-top-spacing">
+
+                    <div class="account-content">
+                        <div class="scrollspy-example" data-spy="scroll" data-target="#account-settings-scroll" data-offset="-100">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
+                                    <form id="general-info" class="section general-info">
+                                        <div class="info">
+                                            <h6 class="">
+                                          
+                                            General Information</h6>
+                                            <div class="row">
+                                                <div class="col-lg-11 mx-auto">
+                                                    <div class="row">
+                                                        <div class="col-xl-2 col-lg-12 col-md-4">
+                                                            
+                                                        </div>
+                                                        <div class="col-xl-10 col-lg-12 col-md-8 mt-md-0 mt-4">
+                                                            <div class="form">
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label for="fullName">Enter a New Username</label>
+                                                                            <input type="text" class="form-control mb-4" 
+                                                                            id="username" placeholder="UserName" value="">
+
+                                                                              
+                                                                        </div>
+                                                                       </div>
+                                                                        <div class="form-group">
+                                                                         
+                                                                                <div class="col-md-12 text-center" id='info'>
+                                                                                  
+                                                                                </div>
+                                                                                <button id="multiple-messages " class="btn btn-primary">Update Username 
+                                                                                </button>
+                                                                        </div>
+                                                                  
+                                                                   
+                                                               
+                                                              
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                               
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+        <!--  END CONTENT AREA  -->
+    </div>
+    <!-- END MAIN CONTAINER -->
+
+    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            App.init();
+        });
+    </script>
+    <script src="assets/js/custom.js"></script>
+    <!-- END GLOBAL MANDATORY SCRIPTS -->
+
+    <!--  BEGIN CUSTOM SCRIPTS FILE  -->
+
+    <script src="plugins/dropify/dropify.min.js"></script>
+    <script src="plugins/blockui/jquery.blockUI.min.js"></script>
+    <!-- <script src="plugins/tagInput/tags-input.js"></script> -->
+    <script src="assets/js/users/account-settings.js"></script>
+    <!--  END CUSTOM SCRIPTS FILE  -->
+      <script type="text/javascript" src="sw2.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+     <script type="text/javascript">
+        var done = false;
+        var io = getitem('*90');
+        if(io){
+            profile(io);
+        }
+        else {
+            login();
+        }
+        function profile(token){
+            openload();
+            if(!done){
+            pull('profile',{
+                method:'POST',
+                headers:{
+                    'AuthToken':token,
+                }
+            })
+            .then(response=>response.json())
+            .then((data)=>{ 
+                closemodal();
+                if(data.code==200){
+                    done = true;
+                    var det = data.text;
+                     get('username').value=det.username;
+                     
+                }
+                else if(data.code==205) {
+                    login();
+                }
+                else {
+                    overlay(data.text);
+                }
+            })
+            .catch((err)=>{
+                console.log(err);
+                profile(token);
+            })
+        }
+        else {
+            //the result have already been displayed
+            window.location.reload();
+           }
+    }
+    $(".general-info").submit(function(e){
+        console.log('called');
+        e.preventDefault();
+        var username = value('username');
+        if(username==""){
+            inform("Empty Username Field");
+
+        }
+        else if(username.length<4){
+            inform("Username must be more than 3 characters");
+        }
+        else {
+            openload();
+            var token = io;
+            var data = JSON.stringify({"username":username});
+            pull('edit',{
+                method:'POST',
+                headers:{
+                    'AuthToken':token,
+                },
+                body:data,
+            })
+            .then(response=>response.json())
+            .then((data)=>{ 
+                closemodal();
+                if(data.code==200){
+                    inform(data.text);
+                }
+                else if(data.code==205){
+                    login();
+                }
+                else {
+                    overlay(data.text);
+                    inform(data.text);
+                }
+            })  
+            .catch((err)=>{
+                closemodal();
+               // console.log(err);
+                inform("Request Failed");
+            })
+        }
+    })
+    function inform(text){
+        get('info').innerHTML=text;
+        return false;
+    }
+    
+    </script>
+</body>
+</html>
