@@ -102,6 +102,9 @@
                             closemodal();
                             var data = result;
                             if(data.code==200){
+                                  var tt = data.text;
+                                setitem('*90',tt);
+                               
                                 Swal.fire({
                                     icon:'success',
                                     html:'Login successful <br> You\'ll be redirected  in a jiffy ',
@@ -111,11 +114,9 @@
                                     timer:2000,
                                 })
                                 .then((result)=>{
-                                    window.location.href="login";
+                                     window.location.href="dashboard";
                                 })
-                                var tt = data.text;
-                                setitem('*90',tt);
-                                window.location.href="dashboard";
+                              
 
                             }
                            else {
